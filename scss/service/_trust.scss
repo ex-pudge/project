@@ -1,0 +1,67 @@
+.lol{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.trust{
+    // flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-h{
+        color: var(--Main-Regular);
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    &-img{
+        display: flex;
+height: 120px;
+padding: 36px 78px 36px 80px;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
+    }
+    .hil{
+        background: #1C4280;
+    }
+    .wanna{
+        background: #143646;
+    }
+    .tapg{
+        background: linear-gradient(0deg, #F48B30 0%, #F48B30 100%), #F48B30;
+    }
+    .dlook{
+        background: #9E4DC3;
+    }
+    .orang{
+        background: #FD9339;
+    }
+    .adtel{
+        background: #E2E2E4;
+    }
+    .clicky{
+        background: #C71C36;
+    }
+    .eco{
+        background: #DCF3F9;
+    }
+    .infra{
+        background: #EAEAEA;
+    }
+    .park{
+        background: #282240;
+    }
+    .art{
+        background: #1D4568;
+    }
+    .ult{
+        background: #000;
+    }
+}
+
+

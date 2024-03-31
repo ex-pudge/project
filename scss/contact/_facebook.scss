@@ -1,0 +1,18 @@
+.facebook{
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &-p{
+        color: var(--Active-Regular, #24A3FF);
+font-size: 12px;
+font-weight: 700;
+line-height: 16px; 
+letter-spacing: 1px;
+text-transform: uppercase;
+width: 105px;
+    }
+
+}

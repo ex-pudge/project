@@ -1,0 +1,130 @@
+@media screen and (max-width: 768px) {
+    .legal-all, .icons-all,.Quality {
+        padding-left: 30px; 
+        padding-right: 30px; 
+    }
+
+    .slide {
+        flex: 0 0 200px;
+        margin-left: 14px;
+      }
+}
+
+@media screen and (min-width: 769px){
+    .header-first, .header-second{
+        padding: 30px;
+    }
+    .legal-all, .icons-all,.Quality {
+        padding-left: 60px; 
+        padding-right: 60px; 
+    }
+    .hero{
+        height: 233px;
+
+        &-h{
+            padding-top: 74px;
+        }
+     }
+     .slides{
+        gap: 40px;
+        justify-content: center;
+     }
+     .slide {
+        flex: 0 0 132px; 
+        height: 90px;
+  display: flex;  
+    justify-content: center;
+    align-items: center;
+      background: white;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .header-first, .header-second{
+        padding: 30px;
+    }
+    .deks-li{
+        display: flex;
+        gap: 30px;
+    }
+    .legal-all{
+        padding-right: 0;
+        width: 486px;
+    }
+    .icons-all{
+        padding-left: 0;
+
+    }
+    .hero{
+        height: 312px;
+    }
+    .Quality{
+        flex-direction: row;
+        gap: 60px;
+        &-p{
+            width: 482px;
+        }
+    }
+ 
+}
+
+@media screen and (min-width: 1440px){
+    .legal-all{
+        width: 662px;
+        padding-left: 180px;
+    }
+
+    .icons-all{
+        padding-right: 180px; 
+    }
+
+    .hero{
+        height: 438px;
+
+        &-h{
+            padding-top: 163px;
+        }
+    }
+    .Quality{
+        padding-left: 180px;
+         padding-right: 180px;
+
+         &-p{
+            width: 658px;
+        }
+    }
+   
+}
+
+@media screen and (min-width:1920px){
+    .header-first, .header-second{
+        padding: 160px;
+    }
+    .legal-all{
+        width: 942px;
+        padding-left: 280px;
+    }
+    .icons-all{
+        padding-right: 280px; 
+    }
+    .slide {
+        flex: 0 0 300px; 
+    }
+   .Quality {
+        padding-left: 280px; 
+        padding-right: 280px; 
+
+        &-h{
+            width: 362px;
+        }
+        
+    }
+    .hero{
+        height: 584px;
+
+        &-h{
+            padding-top: 236px;
+        }
+    }
+}
+

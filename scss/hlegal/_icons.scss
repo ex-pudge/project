@@ -1,0 +1,43 @@
+.icons{
+display: flex;
+flex-direction: column;
+gap: 40px;
+border-left: 2px solid #ccc;
+
+
+&-part{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 34px;
+    gap: 10px;
+
+    &-figure{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 6px;
+    }
+
+    &-number{
+        margin: 0 0;
+        text-align: center;
+font-size: 36px;
+font-weight: 700;
+background: var(--Gradient-Red-Text);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+
+    &-p{
+        margin: 0 0 ;
+        color: var(--Main-Regular);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+}
+}
