@@ -1,0 +1,77 @@
+.form{
+    padding-left:30px;
+    padding-right: 30px;
+    background: #F5F5FA;
+    border-radius: 12px;
+
+    &-all{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    h1{
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        background: var(--Gradient-Red-Text);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+
+    ::placeholder{
+        padding-left: 15px;
+    }
+
+    &-name {
+        box-sizing: border-box;
+        padding: 15px 0 15px 0;
+        border-radius: 8px;
+        border: 1px solid var(--Basic-White);
+        background: var(--Basic-White);
+        width: 100%; 
+        color: #B3B3BA;
+        font-size: 16px;
+        line-height: 26px; 
+        margin-bottom: 15px;
+    }
+    &-message{
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid var(--Basic-White);
+        border-radius: 8px;
+        background: var(--Basic-White);
+        color: #B3B3BA;
+        font-size: 16px;
+        line-height: 26px; 
+        height: 130px;
+        padding-bottom: 86px;
+    }
+
+    &-contact{
+        padding-top: 30px;
+    }
+    &-h{
+        color:  #B3B3BA;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+    &-butn{
+        margin-top: 30px;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 18px 0;
+        color: var(--Basic-White);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+border: 1px solid #24A3FF;
+border-radius: 12px;
+background: var(--Active-Regular, #24A3FF);
+box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.50);
+    }
+}

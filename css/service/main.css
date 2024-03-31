@@ -1,0 +1,229 @@
+@charset "UTF-8";
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #323264;
+}
+.header-first {
+  display: flex;
+  padding: 15px 15px;
+}
+.header-p {
+  color: white;
+  font-size: 20px;
+}
+.header-second {
+  padding: 15px 15px;
+}
+
+* {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.better-all {
+  background: var(--Gradient-Supersoft);
+  border-radius: 0px 0px 12px 12px;
+}
+
+.better {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.better-h {
+  font-size: 30px;
+  background: var(--Gradient-Red-Text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.better-icons {
+  display: flex;
+  gap: 30px;
+}
+.better-icons-all {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.better-icons-part {
+  width: 100%;
+}
+.better-icons-part-img {
+  width: 81px;
+  height: 81px;
+  display: flex;
+  padding: 14px;
+  border-radius: 24px;
+  background: var(--Basic-White);
+}
+.better-icons-part-h {
+  color: #24A3FF;
+  font-size: 22px;
+}
+.better-icons-part-p {
+  color: var(--Basic-White);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.back {
+  height: 10px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 12px 12px;
+  margin: 0 auto;
+  background: #CACADB;
+}
+.back-back {
+  height: 10px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  border-radius: 0px 0px 12px 12px;
+  background: #E7E7F2;
+}
+
+.lol {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.trust {
+  display: flex;
+  flex-wrap: wrap;
+}
+.trust-h {
+  color: var(--Main-Regular);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.trust-img {
+  display: flex;
+  height: 120px;
+  padding: 36px 78px 36px 80px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+}
+.trust .hil {
+  background: #1C4280;
+}
+.trust .wanna {
+  background: #143646;
+}
+.trust .tapg {
+  background: linear-gradient(0deg, #F48B30 0%, #F48B30 100%), #F48B30;
+}
+.trust .dlook {
+  background: #9E4DC3;
+}
+.trust .orang {
+  background: #FD9339;
+}
+.trust .adtel {
+  background: #E2E2E4;
+}
+.trust .clicky {
+  background: #C71C36;
+}
+.trust .eco {
+  background: #DCF3F9;
+}
+.trust .infra {
+  background: #EAEAEA;
+}
+.trust .park {
+  background: #282240;
+}
+.trust .art {
+  background: #1D4568;
+}
+.trust .ult {
+  background: #000;
+}
+
+:root {
+  --Gradient-Red-Text: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  --Basic-White: #FFF;
+  --Gradient-Supersoft: linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  --Main-Regular: #323264;
+}
+
+@media screen and (max-width: 375px) {
+  .trust-all {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .trust-logo:nth-child(n+7) {
+    display: none;
+  }
+}
+@media screen and (min-width: 376px) {
+  .trust-all {
+    display: grid;
+    grid-auto-rows: calc((100% - 40px) / 3); /* 40px - суммарные отступы между строками */
+    gap: 20px;
+    max-height: calc((100% - 40px) * 1.33); /* 40px - суммарные отступы между строками, 1.33 - соотношение сторон прямоугольника */
+    overflow: hidden;
+  }
+  .trust-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .trust-img {
+    width: 100%;
+    height: 100%;
+  }
+  .trust-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .better {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .better-icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .better-icons-all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .header-first, .header-second {
+    padding: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .better-icons-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .better {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .header-first, .header-second {
+    padding: 160px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

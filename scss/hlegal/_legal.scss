@@ -1,0 +1,28 @@
+*{
+font-family:Montserrat;
+font-weight: 400;
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:  0 0;
+    
+    &-h{
+font-size: 30px;
+font-weight: 700;
+padding-right: 100px;
+background: var(--Gradient-Red-Text);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+
+    &-p{
+        color: #000;
+font-family: Montserrat;
+font-size: 19px;
+line-height: 30px;
+    }
+}

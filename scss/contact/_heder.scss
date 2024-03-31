@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    &-first{
+        display: flex;
+        padding: 15px 15px;
+    }
+
+    &-p{
+        color:  #323264;
+       font-size: 20px;
+    }
+
+    &-second{
+        padding:15px 15px
+    }
+}
